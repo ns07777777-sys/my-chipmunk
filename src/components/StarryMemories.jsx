@@ -94,10 +94,17 @@ export default function StarryMemories() {
         "The sixth form open evening 🥰🥰🥰 and at the end when you waited with me for my dad xx",
         "When i designed your name on your leavers shirtttt 🫠🫠🫠xx",
         "All of our hugsss 🥰🥰🥰 omggg I miss our hugs 🥺🥺🥺 xx",
-        "The Liverpool tripppp, and how YOUUU got us both lost 🫨🫨🫨😌 xx",
-        "Prommm, how gorgeous you looked omggg 🫠🫠🫠😘😘😘 and how I fed you the dinner there 🤭🤭xx"
+        'The Liverpool tripppp, and how YOUUU got us both lost 🫨🫨🫨😌 xx',
+        'Prommm, how gorgeous you looked omggg 🫠🫠🫠😘😘😘 and how I fed you the dinner there 🤭🤭xx',
+        'OMGGG that time when it raineddd and you came in from being on the 3GGGG, and I you came up to me and you leaned down closer to me to hear what I was saying to you and OMG I was gonna faint 🤭xx',
+        'Every single time you adjust or sort your hair out i’d be like YUHHHH 😆😆😆 let me just admire himmm omgggg 🫠🫠🫠🫠xx',
+        'Idk if you remember but last year arounddd idk November maybeee and it was the NLD, and we lost 😿 and I put you in a timeout 😺xx',
+        'OMGGGG summer 2025 🥰🥰🥰 we spent the whole summer togetherrr 🥰🥰🥰🥰xx',
+        'The first time we told each other I love you on your birthdayyy when you turned 17 🥰😘🥰xx',
+        'That day when just me and you went on the 3G so you could teach me how to take penalties 🥰🥰🥰xx',
+        'Christmas 2024, omg that was so special 🥰🥰🥰 how you took pics of all the memorable places in stmca 🥰🥰🥰and I wrote you your first poem 🥰🥰🥰xx'
+    ]
 
-    ];
 
     const [stars, setStars] = useState([]);
     const [popup, setPopup] = useState(null);

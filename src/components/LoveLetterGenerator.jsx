@@ -206,19 +206,31 @@ export default function LoveLetter() {
     const userScrolledUp = useRef(false);
 
     const loveLetterText = `
-Hy you ❤️
-I just wanted to take a moment to remind you how amazing you are.
-Every single thing about you — your laugh, your smile, your weird little habits — makes my world brighter.
-You’ve turned ordinary moments into memories I’ll never forget.
-Even when you’re quiet, you speak to my heart louder than anyone else ever could.
-So here’s my little love letter — not perfect, but perfectly you.
-Because no one else could ever make me feel this way. 💫
-
-Yours, forever and always. 💋
+To my gorgeous most beautiful husband on his 18th birthday!!! ❤️❤️❤️
+Honestly any words I say will never ever amount to how much you truly mean to me and how much I love you
+For my love for you is never ending baby❤️❤️❤️.
+I pray you have the future you dream of, achieve the goals you have set out in your mind,
+You are now 18!! You’re now at the point where so many new doors and pathways are unlocked so many more decisions to make, destinations to take, always keep your head up as you always have, and keep going no matter how hard it gets and I promise you I am forever holding your hand through it all, I am forever your number 1 supporter, forever cheering you on.
+I look at you, and it makes me so emotional, I’m crying as I’m writing this 😅 (its currently November 8th at 11:29pm, just as a time stamp😌) because you are literally a miracle,
+You are literally the strongest person I know and will ever know, and I am forever and ever proud of you my baby ❤️❤️❤️.
+In the poetry world, they say, every poet has their muse, and you are my muse, 
+You are an art, and not everyone can be an art, not anyone can be an art,
+But you are an art.
+I’ve just sat here and thought, I’ve wrote a poem about you through the season of autumn,
+But omg I can literally write about the season of winter through you as well,
+And the season of spring and summer too. I can look at the ocean and write about you, the sun, the sky.
+You are the most perfect most beautiful creation my love, always know that, both inside and out.
+One day, and this day isn’t far away at all, we will be cuddling together on our sofa, watching our children play, and we’ll think back to this time, and how everything used to be. 
+How lucky am I to have been blessed with you Carter. 
+Baby, I hope you have the best birthday ever❤️❤️❤️, you better tell me all about your dayyy 👹👹👹 😘😘😘.
+I love you forever Carter ❤️❤️❤️❤️❤️😘😘😘😘😘😘
+Lots of Love,
+Noorin xxx
 `;
 
     // 🩷 Typing effect
     useEffect(() => {
+        setDisplayedText(""); // ✅ Clear text before typing starts
         const splitter = new GraphemeSplitter();
         const letters = splitter.splitGraphemes(loveLetterText);
         let index = 0;
@@ -239,7 +251,9 @@ Yours, forever and always. 💋
         return () => {
             isCancelled = true;
         };
-    }, [speed]);
+    }, [speed, loveLetterText]); // ✅ include loveLetterText here too
+
+
 
     // 💫 Scroll logic (only scrolls if user hasn't scrolled up)
     useEffect(() => {
