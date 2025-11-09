@@ -205,8 +205,8 @@ export default function LoveLetter() {
     const textRef = useRef(null);
     const userScrolledUp = useRef(false);
 
-    const loveLetterText = `
-To my gorgeous most beautiful husband on his 18th birthday!!! ❤️❤️❤️
+    const loveLetterText = 
+`To my gorgeous most beautiful husband on his 18th birthday!!! ❤️❤️❤️
 Honestly any words I say will never ever amount to how much you truly mean to me and how much I love you
 For my love for you is never ending baby❤️❤️❤️.
 I pray you have the future you dream of, achieve the goals you have set out in your mind,
